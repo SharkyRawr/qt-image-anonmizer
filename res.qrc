@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="icon">res/64.png</file>
+        <file>res/128.png</file>
+        <file>res/256.png</file>
+        <file>res/512.png</file>
+        <file alias="icon_svg">res/iconfinder_file__jpg__image__3350537.svg</file>
+    </qresource>
+</RCC>
