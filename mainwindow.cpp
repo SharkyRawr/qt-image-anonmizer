@@ -58,5 +58,6 @@ void MainWindow::dropEvent(QDropEvent *event)
     auto outname = QString("%1/%2_stripped.%3").arg(fi.absoluteDir().path()).arg(fi.baseName()).arg(fi.suffix());
     qDebug() << outname;
 
+    // Resaving it magically removes all the EXIF metadata and hopefully XMPP too. 🤷‍♀️
     pm.save(outname, fi.suffix().toStdString().c_str());
 }
